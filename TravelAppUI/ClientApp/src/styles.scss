@@ -1,0 +1,96 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Provide sufficient contrast against white background */
+@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
+@import '~@angular/material/theming';
+@import 'Palette.scss';
+@include mat-core();
+
+
+a {
+  color: #0366d6;
+}
+
+code {
+  color: #e01a76;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Core CSS */
+.checks {
+  background: repeating-linear-gradient(45deg, #fefefe 0px, #1620a6 1px, #1620a6 1.5px, #fefefe 2.5px, #fefefe 5px);
+  font-size: 16px;
+  height: 12px;
+}
+
+.md-toolbar {
+  height: 90px;
+}
+
+.container {
+  min-height: 27rem;
+  min-width: 50rem;
+  margin: 0 0 1rem 0;
+  max-height: 40rem;
+  max-width: 65rem;
+  width: 100%;
+}
+
+#mainnav, #mainnav .mat-toolbar-row {
+  height: 100px;
+}
+
+body {
+  font-family: HelveticaNeueLTStd-LtCn, Franklin Gothic Book, Helvetica, Roboto, Arial, sans-serif;
+  line-height: 1.5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: rgb(245, 245, 245);
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow-y: hidden;
+  overflow-x: auto;
+  min-width: fit-content;
+  min-height: fit-content
+}
+  /* Legacy */
+  
+
+.mat-toolbar {
+  height: auto;
+}
+
+.mat-toolbar-row {
+  height: 56px;
+}
+
+
+
+#sitelogo {
+  height: 3.5em;
+  margin-top: 0.5em;
+  margin-right: 0.5em;
+  margin-left: 2.5em;
+}
+
+.mat-sidenav-container {
+  height: 100%;
+}
+
+
+nav-bar mat-toolbar.mat-toolbar-row {
+  align-items: flex-start;
+  height: 100px;
+}

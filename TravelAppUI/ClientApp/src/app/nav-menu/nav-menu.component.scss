@@ -1,0 +1,62 @@
+@import '~@angular/material/theming';
+@import '../../Palette.scss';
+
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+
+
+:host {
+  display: block;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0
+  }
+
+  50% {
+    opacity: 0
+  }
+
+  100% {
+    opacity: 1
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    width: 0;
+    height: 0;
+  }
+
+  100% {
+    width: 375px;
+    height: 100px;
+  }
+}
+
+#mainnav {
+  width: 100%;
+}
+
+  #mainnav .mat-toolbar-row {
+    height: 56px;
+  }

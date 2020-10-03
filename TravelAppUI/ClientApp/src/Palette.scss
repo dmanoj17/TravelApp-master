@@ -1,0 +1,281 @@
+$black-87-opacity: rgba(black, 0.87);
+$white-87-opacity: rgba(white, 0.87);
+$black-12-opacity: rgba(black, 0.12);
+$white-12-opacity: rgba(white, 0.12);
+$black-6-opacity: rgba(black, 0.06);
+$white-6-opacity: rgba(white, 0.06);
+
+$atlas-skyblue: ( 50 : #e8f1fb, 100 : #c5dbf5, 200 : #9fc3ef, 300 : #79abe8, 400 : #5c99e3, 500 : #3f87de, 600 : #397fda, 700 : #3174d5, 800 : #296ad1, 900 : #1b57c8, A100 : #fdfeff, A200 : #cadbff, A400 : #97b8ff, A700 : #7ea6ff, contrast: ( 50 : #000000, 100 : #000000, 200 : #000000, 300 : #000000, 400 : #000000, 500 : #ffffff, 600 : #ffffff, 700 : #ffffff, 800 : #ffffff, 900 : #ffffff, A100 : #000000, A200 : #000000, A400 : #000000, A700 : #000000, ) );
+
+$atlas-blue: (
+  50: #d2d4f9,
+  100: #a5aaf3,
+  200: #787fed,
+  300: #3440e5,
+  400: #1a26cb,
+  500: #1620a6,
+  600: #151e9e,
+  700: #121987,
+  800: #0f1571,
+  900: #0c115a,
+  A100: #8e95f0,
+  A200: #616aea,
+  A400: #1722b5,
+  A700: #151e9e,
+  contrast: (
+    50: $black-87-opacity,
+    100: $black-87-opacity,
+    200: $black-87-opacity,
+    300: $black-87-opacity,
+    400: $black-87-opacity,
+    500: white,
+    600: white,
+    700: white,
+    800: $white-87-opacity,
+    900: $white-87-opacity,
+    A100: $black-87-opacity,
+    A200: white,
+    A400: white,
+    A700: white,
+  )
+);
+
+$atlas-blue: (
+  50: #d2d4f9,
+  100: #a5aaf3,
+  200: #787fed,
+  300: #3440e5,
+  400: #1a26cb,
+  500: #1620a6,
+  600: #151e9e,
+  700: #121987,
+  800: #0f1571,
+  900: #0c115a,
+  A100: #8e95f0,
+  A200: #616aea,
+  A400: #1722b5,
+  A700: #151e9e,
+  contrast: (
+    50: $black-87-opacity,
+    100: $black-87-opacity,
+    200: $black-87-opacity,
+    300: $black-87-opacity,
+    400: $black-87-opacity,
+    500: white,
+    600: white,
+    700: white,
+    800: $white-87-opacity,
+    900: $white-87-opacity,
+    A100: $black-87-opacity,
+    A200: white,
+    A400: white,
+    A700: white,
+  )
+);
+
+$atlas-green: (
+  50: #f5fbea,
+  100: #e0f2bf,
+  200: #cbea95,
+  300: #b6e26a,
+  400: #a1d93f,
+  500: #8ec828,
+  600: #78aa22,
+  700: #5a8019,
+  800: #3c5511,
+  900: #1e2b08,
+  A100: #d5eeaa,
+  A200: #b6e26a,
+  A400: #96d52a,
+  A700: #4b6a15,
+  contrast: (
+    50: $black-87-opacity,
+    100: $black-87-opacity,
+    200: $black-87-opacity,
+    300: $black-87-opacity,
+    400: $black-87-opacity,
+    500: white,
+    600: white,
+    700: white,
+    800: $white-87-opacity,
+    900: $white-87-opacity,
+    A100: $black-87-opacity,
+    A200: white,
+    A400: white,
+    A700: white,
+  )
+);
+
+$atlas-purple: (
+  50: #f5fbea,
+  100: #f4d7f3,
+  200: #eaaee8,
+  300: #df86dc,
+  400: #d45ed0,
+  500: #c936c5,
+  600: #a12b9d,
+  700: #792076,
+  800: #51154f,
+  900: #280b27,
+
+  A100: #e49ae2,
+  A200: #d45ed0,
+  A400: #96d52a,
+  A700: #c936c5,
+  contrast: (
+    50: $black-87-opacity,
+    100: $black-87-opacity,
+    200: $black-87-opacity,
+    300: $black-87-opacity,
+    400: $black-87-opacity,
+    500: white,
+    600: white,
+    700: white,
+    800: $white-87-opacity,
+    900: $white-87-opacity,
+    A100: $black-87-opacity,
+    A200: white,
+    A400: white,
+    A700: white,
+  )
+);
+
+$atlas-orange: (
+  50: #fff4e6,
+  100: #ffddb3,
+  200: #ffd199,
+  300: #ffba66,
+  400: #ffa333,
+  500: #ff8c00,
+  600: #e67e00,
+  700: #b36200,
+  800: #804600,
+  900: #4d2a00,
+  A100: #ffe8cc,
+  A200: #ffc680,
+  A400: #ffaf4d,
+  A700: #cc7000,
+  contrast: (
+    50: $black-87-opacity,
+    100: $black-87-opacity,
+    200: $black-87-opacity,
+    300: $black-87-opacity,
+    400: $black-87-opacity,
+    500: white,
+    600: white,
+    700: white,
+    800: $white-87-opacity,
+    900: $white-87-opacity,
+    A100: $black-87-opacity,
+    A200: white,
+    A400: white,
+    A700: white,
+  )
+);
+
+$atlas-magenta: (
+  50: #fee7f0,
+  100: #fcb6d3,
+  200: #fa85b5,
+  300: #f85498,
+  400: #f6237b,
+  500: #db0962,
+  600: #ab074c,
+  700: #7a0536,
+  800: #490320,
+  900: #18010b,
+  A100: #fdcee2,
+  A200: #fb9dc4,
+  A400: #f96ca7,
+  A700: #c40856,
+  contrast: (
+    50: $black-87-opacity,
+    100: $black-87-opacity,
+    200: $black-87-opacity,
+    300: $black-87-opacity,
+    400: $black-87-opacity,
+    500: white,
+    600: white,
+    700: white,
+    800: $white-87-opacity,
+    900: $white-87-opacity,
+    A100: $black-87-opacity,
+    A200: white,
+    A400: white,
+    A700: white,
+  )
+);
+
+$mat-grey: ( 0: #ffffff, 50: #fafafa, 100: #f5f5f5, 200: #eeeeee, 300: #e0e0e0, 400: #bdbdbd, 500: #9e9e9e, 600: #757575, 700: #616161, 800: #424242, 900: #212121, 1000: #000000, A100: #ffffff, A200: #eeeeee, A400: #bdbdbd, A700: #616161, contrast: ( 0: $black-87-opacity, 50: $black-87-opacity, 100: $black-87-opacity, 200: $black-87-opacity, 300: $black-87-opacity, 400: $black-87-opacity, 500: $black-87-opacity, 600: $white-87-opacity, 700: $white-87-opacity, 800: $white-87-opacity, 900: $white-87-opacity, 1000: $white-87-opacity, A100: $black-87-opacity, A200: $black-87-opacity, A400: $black-87-opacity, A700: $white-87-opacity, ) );
+
+// Background palette for light themes.
+$mat-light-theme-background: ( 
+    status-bar: map_get($mat-grey, 300), 
+    app-bar: map_get($mat-grey, 100), 
+    background: map_get($mat-grey, 50), 
+    hover: rgba(black, 0.04), // TODO(kara): check style with Material Design UX
+    card: white, 
+    dialog: white, 
+    disabled-button: $black-12-opacity, 
+    raised-button: white, 
+    focused-button: $black-6-opacity, 
+    selected-button: map_get($mat-grey, 300), 
+    selected-disabled-button: map_get($mat-grey, 400), 
+    disabled-button-toggle: map_get($mat-grey, 200),
+    unselected-chip: map_get($mat-grey, 300),
+    disabled-list-option: map_get($mat-grey, 200),
+);
+
+// Background palette for dark themes.
+$mat-dark-theme-background: ( 
+    status-bar: black, 
+    app-bar: map_get($mat-grey, 900), 
+    background: #303030, 
+    hover: rgba(white, 0.04), // TODO(kara): check style with Material Design UX
+    card: map_get($mat-grey, 800), 
+    dialog: map_get($mat-grey, 800), 
+    disabled-button: $white-12-opacity, 
+    raised-button: map-get($mat-grey, 800), 
+    focused-button: $white-6-opacity, 
+    selected-button: map_get($mat-grey, 900), 
+    selected-disabled-button: map_get($mat-grey, 800), 
+    disabled-button-toggle: map_get($mat-grey, 1000),
+    unselected-chip: map_get($mat-grey, 700),
+    disabled-list-option: black,
+);
+
+// Foreground palette for light themes.
+$mat-light-theme-foreground: ( 
+    base: black, 
+    divider: $black-12-opacity, 
+    dividers: $black-12-opacity, 
+    disabled: rgba(black, 0.38), 
+    disabled-button: rgba(black, 0.38), 
+    disabled-text: rgba(black, 0.38), 
+    hint-text: rgba(black, 0.38), 
+    secondary-text: rgba(black, 0.54), 
+    icon: rgba(black, 0.54), 
+    icons: rgba(black, 0.54), 
+    text: rgba(black, 0.87),
+    slider-min:        rgba(black, 0.87),
+    slider-off: rgba(black, 0.26), 
+    slider-off-active: rgba(black, 0.38), 
+);
+
+// Foreground palette for dark themes.
+$mat-dark-theme-foreground: ( 
+    base: white, 
+    divider: $white-12-opacity, 
+    dividers: $white-12-opacity, 
+    disabled: rgba(white, 0.3), 
+    disabled-button: rgba(white, 0.3), 
+    disabled-text: rgba(white, 0.3), 
+    hint-text: rgba(white, 0.3), 
+    secondary-text: rgba(white, 0.7), 
+    icon: white, 
+    icons: white, 
+    text: white, 
+    slider-min:        white,
+    slider-off: rgba(white, 0.3), 
+    slider-off-active: rgba(white, 0.3), 
+);

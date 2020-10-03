@@ -1,0 +1,51 @@
+<mat-toolbar color="primary" class="example-toolbar">
+  <img id="sitelogo" src="assets/images/logo.svg" />
+  <h1 class="example-app-name">Travel the World</h1>
+  <mat-form-field class="searchform" appearance="realtive" >
+    <mat-icon  class="search" matSuffix>search</mat-icon>
+    <input matInput class="searchbar" placeholder="Search">
+  </mat-form-field>
+  <span class="example-spacer"></span>
+  <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+    <mat-icon>settings</mat-icon>
+  </button>
+  <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+    <mat-icon>notifications</mat-icon>
+  </button>
+  <button mat-icon-button class="fa fa-power-off">
+    <mat-icon>power_settings_new</mat-icon>
+  </button>
+</mat-toolbar>
+<mat-sidenav-container class="example-container" autosize>
+  <mat-sidenav #sidenav class="example-sidenav" mode="side" opened="true">
+    <mat-nav-list>
+      <img id="user_image" src="assets/images/user.svg" />
+    </mat-nav-list>
+    <mat-nav-list>
+      <mat-list-item >
+        <span class="full-width">Home</span>
+        <mat-icon mat-list-icon>home</mat-icon>
+      </mat-list-item>
+      <mat-list-item >
+        <span class="full-width">My Trips</span>
+        <mat-icon mat-list-icon>tour</mat-icon>
+      </mat-list-item>
+      <mat-list-item>
+        <span class="full-width">Friends</span>
+        <mat-icon mat-list-icon>wc</mat-icon>
+      </mat-list-item>
+      <mat-list-item >
+        <span class="full-width">Chat</span>
+        <mat-icon mat-list-icon>voice_chat</mat-icon>
+      </mat-list-item>
+    </mat-nav-list>
+  </mat-sidenav>
+
+  <div class="example-sidenav-content">
+    Main content that resizes properly
+  
+
+  <!--<app-nav-menu></app-nav-menu>
+  <router-outlet></router-outlet>-->
+    </div>
+</mat-sidenav-container>
