@@ -29,10 +29,22 @@
 
       </mat-panel-title>
     </mat-expansion-panel-header>
-    <label for="source">Source:  </label>
-    <input class="source" type="text" id="source" name="source">
-    <label for="destination">Destination:</label>
-    <input class="destination" type="text" id="destination" name="destination"><br><br>
+
+    <label for="source"><b>Source</b></label>
+    <input type="text" placeholder="Enter Source" name="source" id="source" required>
+
+    <label for="destination"><b>Destination</b></label>
+    <input type="text" placeholder="Enter Destination" name="destination" id="destination" required>
+
+    <label for="startdate"><b>Start Date</b></label>
+    <input type="date" placeholder="Enter Start Date" name="startdate" id="startdate" required>
+
+    <label for="enddate"><b>End Date</b></label>
+    <input type="date" placeholder="Enter End Date" name="enddate" id="enddate" required>
+    <br />
+    <label for="budget"><b>Budget</b></label>
+    <input type="text" placeholder="Enter budget" name="budget" id="budget" required>
+
   </mat-expansion-panel>
   <!-- #enddocregion basic-panel -->
   <mat-expansion-panel (opened)="panelOpenState = true"

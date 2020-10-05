@@ -58,3 +58,14 @@
 
 
 
+input[type=text], input[type=date] {
+  padding-top: 20em;
+  width: 42%;
+  padding: 10px;
+  margin: 10px 0 22px 0;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
