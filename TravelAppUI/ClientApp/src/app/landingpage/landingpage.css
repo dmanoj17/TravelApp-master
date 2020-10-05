@@ -1,5 +1,5 @@
 .form {
-  padding-left:2em;
+  padding-left: 2em;
 }
 
 .landingpagebar {
@@ -24,7 +24,7 @@
   height: 17.5em;
   padding-top: -5em;
   padding-left: 0.5em;
-background-color:orange
+  background-color: orange
 }
 
 .post {
@@ -33,6 +33,5 @@ background-color:orange
 }
 
 .button {
-   padding-left: 83.35em;
-} 
-
+  padding-left: 83.35em;
+}

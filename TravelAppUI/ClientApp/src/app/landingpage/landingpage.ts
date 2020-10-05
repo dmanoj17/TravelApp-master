@@ -12,6 +12,7 @@ import { Component, ViewChild } from '@angular/core';
 
 export class LandingPage {
   //title = 'app';
+  panelOpenState = false;
 }
 
 

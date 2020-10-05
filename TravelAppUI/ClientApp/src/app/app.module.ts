@@ -20,6 +20,8 @@ import { MatInputModule } from '@angular/material/input';
 import { SidenavAutosizeExample } from './side-nav/side-nav';
 import { LandingPage } from './landingpage/landingpage';
 
+import { MatExpansionModule } from '@angular/material/expansion';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -45,6 +47,7 @@ import { LandingPage } from './landingpage/landingpage';
     MatListModule,
     MatButtonModule,
     MatFormFieldModule,
+    MatExpansionModule,
     MatInputModule,
     MatIconModule
   ],
