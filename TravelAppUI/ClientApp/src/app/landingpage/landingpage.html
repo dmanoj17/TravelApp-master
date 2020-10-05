@@ -1,3 +1,4 @@
+<!-- #enddocregion basic-panel
 <section>
   <h1>Welcome to the world of travelling...</h1>
 </section>
@@ -12,7 +13,7 @@
     POST
   </button>
 </section>
-
+-->
 
 <mat-accordion>
   <!-- #docregion basic-panel -->
@@ -45,15 +46,71 @@
     <label for="budget"><b>Budget</b></label>
     <input type="text" placeholder="Enter budget" name="budget" id="budget" required>
 
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          <p>More Options</p>
+        </mat-panel-title>
+
+      </mat-expansion-panel-header>
+
+      <label for="cars"><b>Interested in</b></label>
+      <select id="gender" name="gender" class="gender">
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+      </select>
+
+      <label for="agerange"><b>Age Range</b></label>
+      <select id="agerange" name="agerange" class="agerange">
+        <option value="20-25">20-25</option>
+        <option value="25-30">25-30</option>
+        <option value="30-35">30-35</option>
+        <option value="35-40">35-40</option>
+        <option value="40-45">40-45</option>
+        <option value="50+">50+</option>
+      </select>
+
+
+      <b class="privacy">Privacy</b>
+      <label for="friends">Friends</label>
+      <input type="checkbox" id="friends" name="friends"
+             checked>
+
+      <label for="strangers">Strangers</label>
+      <input type="checkbox" id="strangers" name="strangers">
+
+      <label for="onlyme">Only Me</label>
+      <input type="checkbox" id="onlyme" name="onlyme">
+
+      <br />
+      <label for="route"><b>Route</b></label>
+      <select id="route" name="route" class="route">
+        <option value="Water">Water</option>
+        <option value="Road">Road</option>
+        <option value="Rail">Rail</option>
+        <option value="Random">Random</option>
+      </select>
+
+    </mat-expansion-panel>
   </mat-expansion-panel>
+
+
   <!-- #enddocregion basic-panel -->
   <mat-expansion-panel (opened)="panelOpenState = true"
-                       (closed)="panelOpenState = false" class="postform3">
+                       (closed)="panelOpenState = false">
+
   </mat-expansion-panel>
-  </mat-accordion>
+</mat-accordion>
+
+<section class="button">
+  <button class="post">
+    POST
+  </button>
+</section>
 
 
 
-    <!-- Copyright 2020 Google LLC. All Rights Reserved.
-        Use of this source code is governed by an MIT-style license that
-        can be found in the LICENSE file at http://angular.io/license -->
+
+<!-- Copyright 2020 Google LLC. All Rights Reserved.
+    Use of this source code is governed by an MIT-style license that
+    can be found in the LICENSE file at http://angular.io/license -->

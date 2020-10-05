@@ -1,4 +1,4 @@
-.form {
+/*.form {
   padding-left: 2em;
 }
 
@@ -26,14 +26,15 @@
   padding-left: 0.5em;
   background-color: orange
 }
-
+   */
 .post {
   background-color: blue;
   Color: white;
+  width: 9em;
 }
 
 .button {
-  padding-left: 83.35em;
+  padding-left: 73.10em;
 }
 
 /* interior box2 styling*/
@@ -48,6 +49,7 @@
 .postform1 {
   width: 80em;
   margin-left: 2em;
+  margin-top: 4em;
 }
 
 /*Start planning interior box1 styling*/
@@ -68,4 +70,60 @@ input[type=text], input[type=date] {
   display: inline-block;
   border: none;
   background: #f1f1f1;
+  vertical-align: middle;
 }
+
+input[type=checkbox] {
+  padding-top: 20em;
+  width: 5%;
+  padding: 10px;
+  margin: 10px 0 22px 0;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  vertical-align: middle;
+}
+
+
+.gender {
+  padding-top: 20em;
+  width: 40%;
+  padding: 10px;
+  margin: 10px 0 22px 0;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+.agerange {
+  padding-top: 2em;
+  width: 40%;
+  padding: 5px;
+  margin: 10px 0 22px 0;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+.route {
+  padding-top: 2em;
+  width: 40%;
+  padding: 5px;
+  margin: 10px 0 22px 0;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+.privacy {
+  margin-right: 15px;
+}
+
