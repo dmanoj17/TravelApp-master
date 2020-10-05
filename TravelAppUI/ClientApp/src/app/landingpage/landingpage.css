@@ -35,3 +35,26 @@
 .button {
   padding-left: 83.35em;
 }
+
+/* interior box2 styling*/
+.postform2 {
+  height: 5em;
+  width: 100em;
+  padding-left: 0.001em;
+  background-color:ghostwhite;
+}
+
+/* Entire panel of post moving right/left*/
+.postform1 {
+  width: 80em;
+  margin-left: 2em;
+}
+
+/*Start planning interior box1 styling*/
+.landingpage1 {
+  height: 80px;
+  width: 950px;
+}
+
+
+

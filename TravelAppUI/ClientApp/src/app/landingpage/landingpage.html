@@ -6,7 +6,6 @@
     <mat-icon class="landingpage" matSuffix>landingpage</mat-icon>
     <input matInput class="landingpagebar" placeholder="Start Planning for your trip....">
   </mat-form-field>
-
 </section>
 <section class="button">
   <button class="post">
@@ -14,37 +13,35 @@
   </button>
 </section>
 
+
 <mat-accordion>
   <!-- #docregion basic-panel -->
   <!-- #docregion hide-toggle -->
-  <mat-expansion-panel hideToggle>
+  <mat-expansion-panel hideToggle class="postform1">
     <!-- #enddocregion hide-toggle -->
-    <mat-expansion-panel-header>
+    <mat-expansion-panel-header class="postform2">
       <mat-panel-title>
-        This is the expansion title
+
+        <mat-form-field appearance="fill">
+          <mat-icon class="landingpage1" matSuffix>landingpage</mat-icon>
+          <input matInput placeholder="Start Planning for your trip....">
+        </mat-form-field>
+
       </mat-panel-title>
-      <mat-panel-description>
-        This is a summary of the content
-      </mat-panel-description>
     </mat-expansion-panel-header>
-    <p>This is the primary content of the panel.</p>
+    <label for="source">Source:  </label>
+    <input class="source" type="text" id="source" name="source">
+    <label for="destination">Destination:</label>
+    <input class="destination" type="text" id="destination" name="destination"><br><br>
   </mat-expansion-panel>
   <!-- #enddocregion basic-panel -->
   <mat-expansion-panel (opened)="panelOpenState = true"
-                       (closed)="panelOpenState = false">
-    <mat-expansion-panel-header>
-      <mat-panel-title>
-        Self aware panel
-      </mat-panel-title>
-      <mat-panel-description>
-        Currently I am {{panelOpenState ? 'open' : 'closed'}}
-      </mat-panel-description>
-    </mat-expansion-panel-header>
-    <p>I'm visible because I am open</p>
+                       (closed)="panelOpenState = false" class="postform3">
   </mat-expansion-panel>
-</mat-accordion>
+  </mat-accordion>
 
 
-<!-- Copyright 2020 Google LLC. All Rights Reserved.
-    Use of this source code is governed by an MIT-style license that
-    can be found in the LICENSE file at http://angular.io/license -->
+
+    <!-- Copyright 2020 Google LLC. All Rights Reserved.
+        Use of this source code is governed by an MIT-style license that
+        can be found in the LICENSE file at http://angular.io/license -->
