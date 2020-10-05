@@ -1,0 +1,38 @@
+.form {
+  padding-left:2em;
+}
+
+.landingpagebar {
+  background-color: ghostwhite;
+  padding: 10em;
+  padding-left: 0.5em;
+  padding-top: 0.5em;
+  font-size: 1.2em;
+  color: black;
+}
+
+.landingpage {
+  display: ruby-base-container;
+  color: black;
+  height: 50px;
+  width: 40px;
+}
+
+.landingpageform {
+  width: 85em;
+  border-color: blue;
+  height: 17.5em;
+  padding-top: -5em;
+  padding-left: 0.5em;
+background-color:orange
+}
+
+.post {
+  background-color: blue;
+  Color: white;
+}
+
+.button {
+   padding-left: 83.35em;
+}
+
