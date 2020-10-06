@@ -32,19 +32,19 @@
     </mat-expansion-panel-header>
 
     <label for="source"><b>Source</b></label>
-    <input type="text" placeholder="Enter Source" name="source" id="source" required>
+    <input type="text" style="margin-left:28px;" placeholder="Enter Source" name="source" id="source" required>
 
     <label for="destination"><b>Destination</b></label>
     <input type="text" placeholder="Enter Destination" name="destination" id="destination" required>
 
     <label for="startdate"><b>Start Date</b></label>
-    <input type="date" placeholder="Enter Start Date" name="startdate" id="startdate" required>
+    <input type="date"  placeholder="Enter Start Date" name="startdate" id="startdate" required>
 
     <label for="enddate"><b>End Date</b></label>
-    <input type="date" placeholder="Enter End Date" name="enddate" id="enddate" required>
+    <input type="date" style="margin-left:23px;" placeholder="Enter End Date" name="enddate" id="enddate" required>
     <br />
     <label for="budget"><b>Budget</b></label>
-    <input type="text" placeholder="Enter budget" name="budget" id="budget" required>
+    <input type="text" style="margin-left:29px;" placeholder="Enter budget" name="budget" id="budget" required>
 
     <mat-expansion-panel>
       <mat-expansion-panel-header>
@@ -54,14 +54,14 @@
 
       </mat-expansion-panel-header>
 
-      <label for="cars"><b>Interested in</b></label>
-      <select id="gender" name="gender" class="gender">
+      <label for="gender"><b>Interested in</b></label>
+      <select id="gender" style="margin-left:23px; width:36.5%" name="gender" class="gender">
         <option value="Male">Male</option>
         <option value="Female">Female</option>
       </select>
-
+      <br />
       <label for="agerange"><b>Age Range</b></label>
-      <select id="agerange" name="agerange" class="agerange">
+      <select id="agerange" style="margin-left:32px; width:36.5%" name="agerange" class="agerange">
         <option value="20-25">20-25</option>
         <option value="25-30">25-30</option>
         <option value="30-35">30-35</option>
@@ -69,27 +69,28 @@
         <option value="40-45">40-45</option>
         <option value="50+">50+</option>
       </select>
-
-
-      <b class="privacy">Privacy</b>
-      <label for="friends">Friends</label>
-      <input type="checkbox" id="friends" name="friends"
-             checked>
-
-      <label for="strangers">Strangers</label>
-      <input type="checkbox" id="strangers" name="strangers">
-
-      <label for="onlyme">Only Me</label>
-      <input type="checkbox" id="onlyme" name="onlyme">
-
       <br />
+
       <label for="route"><b>Route</b></label>
-      <select id="route" name="route" class="route">
+      <select id="route" style="margin-left:62px; width:36.5%" name="route" class="route">
         <option value="Water">Water</option>
         <option value="Road">Road</option>
         <option value="Rail">Rail</option>
         <option value="Random">Random</option>
       </select>
+      <br />
+
+      <b class="privacy">Privacy</b>
+      
+
+    
+      <input type="radio" id="male" name="friends" value="friends">
+      <label for="friends" style="margin-left:-50px;">Friends</label>
+      <input type="radio" id="public" name="public" value="public">
+      <label for="public" style="margin-left:-50px;">Public</label>
+      <input type="radio" id="onlyme" name="onlyme" value="onlyme">
+      <label for="onlyme" style="margin-left:-50px;">Only me</label>
+
 
     </mat-expansion-panel>
   </mat-expansion-panel>
@@ -125,23 +126,25 @@
 
     </div>
     <br />
-    <label for="source">Source</label>
-    <input type="text" id="source" name="source">
-    <br />
-    <label for="destination">Destination</label>
-    <input type="text" id="destination" name="destination">
-    <br />
-    <label for="startdate">Start date</label>
-    <input type="text" id="startdate" name="startdate">
-    <br />
-    <label for="enddate">End date</label>
-    <input type="text" id="enddate" name="enddate">
-    <br />
-    <label for="budget">Budget</label>
-    <input type="text" id="budget" name="budget">
-    <br />
-    <label for="route">Route</label>
-    <input type="text" id="route" name="route">
+
+      <label for="source"><b>Source</b></label>
+      <input type="text" style="margin-left:48px;" id="source" name="source">
+      <br />
+      <label for="destination"><b>Destination</b></label>
+      <input type="text" style="margin-left:22px;" id="destination" name="destination">
+      <br />
+      <label for="startdate"><b>Start date</b></label>
+      <input type="text" style="margin-left:30px;" id="startdate" name="startdate">
+      <br />
+      <label for="enddate"><b>End date</b></label>
+      <input type="text" style="margin-left:36px;" id="enddate" name="enddate">
+      <br />
+      <label for="budget"><b>Budget</b></label>
+      <input type="text" style="margin-left:45px;"  id="budget" name="budget">
+      <br />
+      <label for="route"><b>Route</b></label>
+      <input type="text" style="margin-left:52px;"  id="route" name="route">
+  
   </form>
 
 

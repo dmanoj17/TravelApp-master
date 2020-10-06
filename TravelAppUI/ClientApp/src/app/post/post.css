@@ -42,7 +42,7 @@
   height: 5em;
   width: 100em;
   padding-left: 0.001em;
-  background-color:ghostwhite;
+  background-color: ghostwhite;
 }
 
 /* Entire panel of post moving right/left*/
@@ -62,7 +62,7 @@
 
 input[type=text], input[type=date] {
   padding-top: 20em;
-  width: 42%;
+  width: 40%;
   padding: 10px;
   margin: 10px 0 22px 0;
   margin-left: 10px;
@@ -70,11 +70,12 @@ input[type=text], input[type=date] {
   display: inline-block;
   border: none;
   background: #f1f1f1;
+ 
 }
 
-input[type=checkbox] {
+input[type=radio] {
   padding-top: 20em;
-  width: 5%;
+  width: 10%;
   padding: 10px;
   margin: 10px 0 22px 0;
   margin-left: 10px;
@@ -82,7 +83,7 @@ input[type=checkbox] {
   display: inline-block;
   border: none;
   background: #f1f1f1;
-  vertical-align: middle;
+  text-align: left;
 }
 
 
@@ -101,7 +102,7 @@ input[type=checkbox] {
 .agerange {
   padding-top: 2em;
   width: 40%;
-  padding: 5px;
+  padding: 10px;
   margin: 10px 0 22px 0;
   margin-left: 10px;
   margin-right: 10px;
@@ -113,7 +114,7 @@ input[type=checkbox] {
 .route {
   padding-top: 2em;
   width: 40%;
-  padding: 5px;
+  padding: 10px;
   margin: 10px 0 22px 0;
   margin-left: 10px;
   margin-right: 10px;
@@ -143,8 +144,12 @@ input select, textarea {
   margin-left: 2em;
   width: 100%;
   margin-top: 2em;
+  padding-top:3em;
   text-align: left;
 }
+
+  
+
 
 .plan {
   background-color: blue;
@@ -165,6 +170,9 @@ input select, textarea {
   vertical-align: middle;
   border-radius: 50%;
 }
+
+
+
 
 
 
