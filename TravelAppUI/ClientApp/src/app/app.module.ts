@@ -18,7 +18,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { SidenavAutosizeExample } from './side-nav/side-nav';
-import { LandingPage } from './landingpage/landingpage';
+import { LandingPage } from './post/post';
 
 import { MatExpansionModule } from '@angular/material/expansion';
 

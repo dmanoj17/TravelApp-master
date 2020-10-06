@@ -5,9 +5,9 @@ import { Component, ViewChild } from '@angular/core';
  * @title Autosize sidenav
  */
 @Component({
-  selector: 'landingpage',
-  templateUrl: 'landingpage.html',
-  styleUrls: ['landingpage.css'],
+  selector: 'post',
+  templateUrl: 'post.html',
+  styleUrls: ['post.css'],
 })
 
 export class LandingPage {

@@ -32,7 +32,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <TypeScriptCompile Remove="ClientApp\src\app\landingpage\landingpage.ts" />
+    <TypeScriptCompile Remove="ClientApp\src\app\post\post.ts" />
   </ItemGroup>
 
   <ItemGroup>

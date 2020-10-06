@@ -70,7 +70,6 @@ input[type=text], input[type=date] {
   display: inline-block;
   border: none;
   background: #f1f1f1;
-  vertical-align: middle;
 }
 
 input[type=checkbox] {
@@ -126,4 +125,47 @@ input[type=checkbox] {
 .privacy {
   margin-right: 15px;
 }
+
+/*Place holder form*/
+
+input select, textarea {
+  width: 89%;
+  margin-top: 10px;
+  margin-bottom: 5x;
+  margin-left: 5px;
+  resize: initial;
+  border: none;
+  float: right;
+}
+
+.container {
+  background-color: ghostwhite;
+  margin-left: 2em;
+  width: 100%;
+  margin-top: 2em;
+  text-align: left;
+}
+
+.plan {
+  background-color: blue;
+  Color: white;
+  width: 9em;
+  margin-top:1em;
+}
+
+.buttonPlan {
+  padding-left: 64.20em;
+  margin-top:2.35em;
+}
+
+#user_image {
+  height: 100px;
+  width:100px;
+  padding-top:0.01px;
+  vertical-align: middle;
+  border-radius: 50%;
+}
+
+
+
 
