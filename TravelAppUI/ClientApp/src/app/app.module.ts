@@ -6,7 +6,6 @@ import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { NavMenuComponent } from './nav-menu/nav-menu.component';
-import { SidenavAutosizeExample } from './side-nav/side-nav';
 import { HomeComponent } from './home/home.component';
 import { CounterComponent } from './counter/counter.component';
 import { FetchDataComponent } from './fetch-data/fetch-data.component';
@@ -18,6 +17,10 @@ import { MatListModule } from '@angular/material/list';
 import { MatButtonModule } from '@angular/material/button';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
+import { SidenavAutosizeExample } from './side-nav/side-nav';
+import { LandingPage } from './post/post';
+
+import { MatExpansionModule } from '@angular/material/expansion';
 
 @NgModule({
   declarations: [
@@ -26,7 +29,8 @@ import { MatInputModule } from '@angular/material/input';
     HomeComponent,
     CounterComponent,
     FetchDataComponent,
-    SidenavAutosizeExample
+    SidenavAutosizeExample,
+    LandingPage
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
@@ -43,6 +47,7 @@ import { MatInputModule } from '@angular/material/input';
     MatListModule,
     MatButtonModule,
     MatFormFieldModule,
+    MatExpansionModule,
     MatInputModule,
     MatIconModule
   ],

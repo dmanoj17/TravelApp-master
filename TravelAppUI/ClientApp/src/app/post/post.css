@@ -1,0 +1,180 @@
+/*.form {
+  padding-left: 2em;
+}
+
+.landingpagebar {
+  background-color: ghostwhite;
+  padding: 10em;
+  padding-left: 0.5em;
+  padding-top: 0.5em;
+  font-size: 1.2em;
+  color: black;
+}
+
+.landingpage {
+  display: ruby-base-container;
+  color: black;
+  height: 50px;
+  width: 40px;
+}
+
+.landingpageform {
+  width: 85em;
+  border-color: blue;
+  height: 17.5em;
+  padding-top: -5em;
+  padding-left: 0.5em;
+  background-color: orange
+}
+   */
+.post {
+  background-color: blue;
+  Color: white;
+  width: 9em;
+}
+
+.button {
+  padding-left: 73.10em;
+  padding-top:-20em;
+}
+
+/* interior box2 styling*/
+.postform2 {
+  height: 5em;
+  width: 100em;
+  padding-left: 0.001em;
+  background-color: ghostwhite;
+}
+
+/* Entire panel of post moving right/left*/
+.postform1 {
+  width: 80em;
+  margin-left: 2em;
+  margin-top: 4em;
+}
+
+/*Start planning interior box1 styling*/
+.landingpage1 {
+  height: 80px;
+  width: 950px;
+}
+
+
+
+input[type=text], input[type=date] {
+  padding-top: 20em;
+  width: 40%;
+  padding: 10px;
+  margin: 10px 0 22px 0;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+ 
+}
+
+input[type=radio] {
+  padding-top: 20em;
+  width: 10%;
+  padding: 10px;
+  margin: 10px 0 22px 0;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  text-align: left;
+}
+
+
+.gender {
+  padding-top: 20em;
+  width: 40%;
+  padding: 10px;
+  margin: 10px 0 22px 0;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+.agerange {
+  padding-top: 2em;
+  width: 40%;
+  padding: 10px;
+  margin: 10px 0 22px 0;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+.route {
+  padding-top: 2em;
+  width: 40%;
+  padding: 10px;
+  margin: 10px 0 22px 0;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+.privacy {
+  margin-right: 15px;
+}
+
+/*Place holder form*/
+
+input select, textarea {
+  width: 89%;
+  margin-top: 10px;
+  margin-bottom: 5x;
+  margin-left: 5px;
+  resize: initial;
+  border: none;
+  float: right;
+}
+
+.container {
+  background-color: ghostwhite;
+  margin-left: 2em;
+  width: 100%;
+  margin-top: 2em;
+  padding-top:3em;
+  text-align: left;
+}
+
+  
+
+
+.plan {
+  background-color: blue;
+  Color: white;
+  width: 9em;
+  margin-top:1em;
+}
+
+.buttonPlan {
+  padding-left: 64.20em;
+  margin-top:2.35em;
+}
+
+#user_image {
+  height: 100px;
+  width:100px;
+  padding-top:0.01px;
+  vertical-align: middle;
+  border-radius: 50%;
+}
+
+
+
+
+
+
+
